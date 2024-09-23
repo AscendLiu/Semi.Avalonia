@@ -24,3 +24,6 @@ If Theme key is type default, use `Default` as Theme part
 
 * If multiple PseudoClass are applied, order by alphabet order.
 
+NuGet.exe工具下载地址：https://www.nuget.org/downloads
+， **发布包到本地文件夹**：`.\nuget.exe add xxx\包名称.包版本号.nupkg -source 本地文件夹路径`，如D:\NuGet
+

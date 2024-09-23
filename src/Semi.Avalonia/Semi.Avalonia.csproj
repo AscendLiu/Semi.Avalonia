@@ -5,6 +5,7 @@
     <PropertyGroup>
         <Title>Semi.Avalonia</Title>
         <PackageReleaseNotes>Update to Avalonia 11.1.0.4</PackageReleaseNotes>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <PropertyGroup Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0'))">
